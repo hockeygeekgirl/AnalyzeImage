@@ -42,7 +42,7 @@ giraffe_tag = trainer.create_tag(project.id, "Giraffe")
 
 print("Adding images...")
 # Add all images in Elephant folder to your project with the tag "elephant"
-IMAGES_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "images")
+IMAGES_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "ElephantGiraffeTrainingImages")
 elephant_dir = os.path.join(IMAGES_FOLDER, "Elephant")
 for image in os.listdir(elephant_dir):
     with open(os.path.join(elephant_dir, image), mode="rb") as img_data:
@@ -50,7 +50,7 @@ for image in os.listdir(elephant_dir):
 print("added elephants")
 
 # Add all images in Giraffe folder to your project with the tag "giraffe"
-IMAGES_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "images")
+IMAGES_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "ElephantGiraffeTrainingImages")
 giraffe_dir = os.path.join(IMAGES_FOLDER, "Giraffe")
 for image in os.listdir(giraffe_dir):
     with open(os.path.join(giraffe_dir, image), mode="rb") as img_data:
