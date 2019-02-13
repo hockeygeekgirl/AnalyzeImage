@@ -18,8 +18,8 @@ import os
 YOUR_PROJECT_NAME = "ElephantNoElephant"
 ENDPOINT = "https://southcentralus.api.cognitive.microsoft.com"
 training_endpoint = "https://southcentralus.api.cognitive.microsoft.com/customvision/v2.2/Training/"
-training_key = "6ea9a9db31724efd90b9bfe886ea108f"
-prediction_key = "4708b2d271e04f8a8e5453839f4e4921"
+training_key = "xxxxxxxxxxxxxxxxxxxxxxx"
+prediction_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 #  function to fetch project object from Custom Vision Service
 
