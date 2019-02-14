@@ -1,41 +1,15 @@
-# Analyzing text, emotion and sentiment
-The code in this repository uses a variety of approaches to analyze text, emotion and sentiment.
+# Analyzing images
+There are many ways to analyze images. In this repository we share resources for three approaches
+1. [Using Computer Vision API](https://github.com/hockeygeekgirl/CustomVisionServiceFun/tree/master/Computer%20Vision%20API)
+2. [Using Custom Vision Service](https://github.com/hockeygeekgirl/CustomVisionServiceFun/tree/master/Custom%20Vision%20Service)
+3. [Training your own model](https://github.com/hockeygeekgirl/CustomVisionServiceFun/tree/master/Training%20Your%20Own%20Model)
 
-The examples were created using [Python and Visual Studio code](https://code.visualstudio.com/docs/python/python-tutorial)
+## [Using Computer Vision API](https://github.com/hockeygeekgirl/CustomVisionServiceFun/tree/master/Computer%20Vision%20API)
+Before you try training your own model to analyze images, you should check if an existing Computer Vision API will meet your needs. This repository contains code samples and links to resources for using the Azure Computer Vision API
 
-## Analyzing text sentiment
+## [Using Custom Vision Service](https://github.com/hockeygeekgirl/CustomVisionServiceFun/tree/master/Custom%20Vision%20Service)
+Sometimes the obejct or scenario we want to recognize in an image is not one existing Computer Vision APIs are trained to recognize. The Custom Vision Service allows you to train a model using new images with an easy to use service. This repository contains code samples and links to resources for using Azure Custom Vision Service.
 
-Language used: Python
+## [Training your own model](https://github.com/hockeygeekgirl/CustomVisionServiceFun/tree/master/Training%20Your%20Own%20Model)
+There are many scenarios where the Computer Vision API or CUstom Vision Service will not meet your needs and you will need to train your own model. This required a higher degree of coding and skill. This repository contains suggested tutorials and resources for training your own model.
 
-Services used: Azure Cognitive Service Text Analytics
-
-Related tutorials and resources:
-* [Text analytics Python quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python)
-
-Files:
-* AnalyzeTextSentiment.py code to analyze text and return a score from 0.0 to 1.0 indicating whether the sentiment is negative (0.0) or positive (1.0)
-
-## Analyzing emotion and faces
-Language used: Python
-
-Services used: Azure Computer Vision API
-
-Related tutorials and resources: 
-* [Face API Notebook](https://hub.mybinder.org/user/microsoft-cogni-vices-notebooks-v5jcn96f/notebooks/FaceAPI.ipynb)
-* [Analyze a local image using REST API and Python](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/quickstarts/python-disk)
-* [Analyze a remote image using REST API and Python](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/quickstarts/python-analyze)
-
-
-Files
-* CheckEmotionHTTPCall.py code to locate faces in an image and return facial characteristics and a score from 0.0 to 1.0 for an assortment of emotions
-
-## Detecting Language
-Language used: Python
-
-Services used: Azure Cognitive Service Text Analytics
-
-Related tutorials and resources: 
-* [Text analytics Python QuickStart](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/python)
-
-Files
-* DetectLanguage.py code to detect the language in a string of text. e.g. is the text in English, French, or German
