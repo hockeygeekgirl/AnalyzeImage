@@ -63,7 +63,7 @@ What happens if you upload a panda bear to the Bears model? What happens if you 
 
 Your model will **only** recognize the tags and images you train. The quality of your trained model depends on the amount of images, the quality of images, and the variety of labels you provide. For more information check out the article [How to improve your classifier](https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/getting-started-improving-your-classifier)
 
-Try adding additional images to improve your model. If you are using the PoutineNoPoutine images try adding the WingsAreNotPoutineTrainingImages adn tagging them as **negative** retrain the model and see if results improve for the chieckn wings picture in the *TestImages* folder
+Try adding additional images to improve your model. If you are using the PoutineNoPoutine images try adding the WingsAreNotPoutineTrainingImages adn tagging them as **negative** retrain the model and see if results improve for the chicken wings picture in the *TestImages* folder
 
 # 5. Use the trained model from your code
 The file *MakePrediction.py* is a Python program which shows you how to call a trained model from your code using the images in *ElephantGiraffeTestImages.zip*. 
