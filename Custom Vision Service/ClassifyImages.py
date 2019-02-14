@@ -26,7 +26,7 @@ import os
 # e.g. https://eastcentralus.api.cognitive.microsoft.com
 
 ENDPOINT = "https://southcentralus.api.cognitive.microsoft.com"
-training_key = "6ea9a9db31724efd90b9bfe886ea108f"
+training_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 trainer = CustomVisionTrainingClient(training_key, endpoint=ENDPOINT)
 
