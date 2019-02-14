@@ -61,14 +61,16 @@ Test your model with an image from the *TestImages* folder
 # 4. Improve your classifier
 What happens if you upload a panda bear to the Bears model? What happens if you upload a picture with a lot of houses or a lake to the fire model? Did you try testing the chicken wings picture on the Poutine model? It incorrectly identifies the chicken wings as Poutine
 
-Your model will **only** recognize the tags and images you train. The quality of your trained model depends on the amount of images, the quality of images, and the variety of labels you provide. For mroe ifnormation check out the article [How to improve your classifier](https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/getting-started-improving-your-classifier)
+Your model will **only** recognize the tags and images you train. The quality of your trained model depends on the amount of images, the quality of images, and the variety of labels you provide. For more information check out the article [How to improve your classifier](https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/getting-started-improving-your-classifier)
 
 Try adding additional images to improve your model. If you are using the PoutineNoPoutine images try adding the WingsAreNotPoutineTrainingImages adn tagging them as **negative** retrain the model and see if results improve for the chieckn wings picture in the *TestImages* folder
 
 # 5. Use the trained model from your code
-The file *MakePrediction.py* is a Python program which shows you how to call a trained model from your code. It does not matter whether you trained the model using the web site or programmatically. 
+The file *MakePrediction.py* is a Python program which shows you how to call a trained model from your code using the images in *ElephantGiraffeTestImages.zip*. 
 
-The file *ClassifyImages.py* is a Python program which creates a Custom Vision Service Project, uploads and tags images, and trains a model. 
+The file *ClassifyImages.py* is a Python program which creates a Custom Vision Service Project, uploads and tags images, and trains a model using the images in *ElephantGiraffeTrainingImages.zip*. 
+
+You can call a trained model from your code regardless of wheter you created and trained the model using the website or programmatically.
 
 Here are the Quickstart tutorials for
 * [C#](https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/csharp-tutorial)
