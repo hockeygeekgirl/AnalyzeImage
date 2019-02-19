@@ -1,3 +1,4 @@
+# This code will call the Computer Vision API to identify landmarks
 # How to call the Computer Vision API https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/vision-api-how-to-topics/howtocallvisionapi
 
 # To use Python in Visual Studio Code
