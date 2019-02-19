@@ -13,9 +13,11 @@ import requests
 # Import json library for encoding and decoding JSON
 import json
 
-subscription_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+# replace the subscription key and vision_base_url with the values for your Computer Vision Service
+subscription_key = "cf229a23c3054905b5a8ad512edfa9dd"
 vision_base_url = "https://canadacentral.api.cognitive.microsoft.com/vision/v2.0/"
 
+# Modify the url to specify you want to identify landmarks
 analyze_url = vision_base_url + "models/landmarks/analyze"
 
 #Computer Vision API will accept image as an application/octet stream or as a raw image binary
@@ -32,7 +34,7 @@ analyze_url = vision_base_url + "models/landmarks/analyze"
 # response = requests.post(analyze_url, headers=headers, params=params, json=data)
 # End Example of pointing to a file on the web
 
-#Example pointing to a local file
+#Example pointing to a local file stored in a subfolder called TestImages
 image_path = "./TestImages/Parliament_Hill.jpg"
 image_data = open(image_path, "rb").read()
 headers    = {'Ocp-Apim-Subscription-Key': subscription_key,
