@@ -60,3 +60,9 @@ else:
     print("\nLandmark: " + landmark_name)
 input()
 
+# Sample JSON output
+# {"result": 
+# {"landmarks": 
+# [{"name": "Parliament Hill", "confidence": 0.9926770925521851}]}, 
+# "requestId": "9a250149-ba14-482f-b27e-f50db7e69529", 
+# "metadata": {"width": 1024, "height": 768, "format": "Jpeg"}}
