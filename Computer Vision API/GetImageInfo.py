@@ -15,7 +15,7 @@ import requests
 import json
 
 # Replace the subscription key and vision_base_url with the values for your Computer vision service
-subscription_key = "cf229a23c3054905b5a8ad512edfa9dd"
+subscription_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 vision_base_url = "https://canadacentral.api.cognitive.microsoft.com/vision/v2.0/"
 
 analyze_url = vision_base_url + "analyze"
