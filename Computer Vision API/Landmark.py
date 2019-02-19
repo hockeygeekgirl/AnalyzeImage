@@ -14,7 +14,7 @@ import requests
 import json
 
 # replace the subscription key and vision_base_url with the values for your Computer Vision Service
-subscription_key = "cf229a23c3054905b5a8ad512edfa9dd"
+subscription_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 vision_base_url = "https://canadacentral.api.cognitive.microsoft.com/vision/v2.0/"
 
 # Modify the url to specify you want to identify landmarks
