@@ -1,12 +1,12 @@
 # [Computer Vision API](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/)
-The [Computer Vision service](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/) analyzes the content of an image. For example, Computer Vision can identify landmarks and celebbrities, determine if an image contains adult or racy content, find all the faces in an image, get handwritten or printed text. This service works with popular image formats, such as JPEG and PNG. The code examples here are in Python but here are Quickstarts for [C#](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/quickstarts-sdk/csharp-analyze-sdk), [Java](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/QuickStarts/java-analyze). [Node.js](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/QuickStarts/node-analyze), [Python](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/QuickStarts/python-analyze), [Go](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/QuickStarts/go-analyze)
+The [Computer Vision service](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/) analyzes the content of an image. For example, Computer Vision can identify landmarks and celebrities, determine if an image contains adult or racy content, find all the faces in an image, or read handwritten or printed text. This service works with popular image formats, such as JPEG and PNG. The code examples here are in Python but there are Quickstarts for [C#](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/quickstarts-sdk/csharp-analyze-sdk), [Java](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/QuickStarts/java-analyze). [Node.js](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/QuickStarts/node-analyze), [Python](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/QuickStarts/python-analyze), [Go](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/QuickStarts/go-analyze)
 
 In this repository you will find python examples for the following:
 * Retrieve a text description of the image
 * Identify landmarks
 * Identify celebrities
 
-Code examples are not provided in this repository but here are tutorials for other capabilities
+Code examples are not provided in this repository for the the other scenarios, but here are some tutorials for reference:
 * [Get text from an image](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/quickstarts-sdk/python-sdk#get-text-from-image)
 * [Generate thumbnail](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/quickstarts-sdk/python-sdk#get-text-from-image)
 
