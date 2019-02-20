@@ -11,5 +11,5 @@ Before you try training your own model to analyze images, you should check if an
 Sometimes the obejct or scenario we want to recognize in an image is not one existing Computer Vision APIs are trained to recognize. The Custom Vision Service allows you to train a model using new images with an easy to use service. This repository contains code samples and links to resources for using [Azure Custom Vision Service](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/).
 
 ## [Training your own model](https://github.com/hockeygeekgirl/CustomVisionServiceFun/tree/master/Training%20Your%20Own%20Model)
-There are many scenarios where the Computer Vision API or CUstom Vision Service will not meet your needs and you will need to train your own model. This required a higher degree of coding and skill. This repository contains suggested tutorials and resources for training your own model.
+There are many scenarios where the Computer Vision API or Custom Vision Service will not meet your needs and you will need to train your own model. This required a higher degree of coding and skill. This repository contains suggested tutorials and resources for training your own model.
 
