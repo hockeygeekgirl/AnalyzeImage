@@ -54,7 +54,7 @@ Project Settings
  * Tag all images in the *NotPoutineTrainingImages* folder with **Negative** to indicate that they do not have the Poutine tag 
 
 # 3. Test your model
-After you complete the steps in the tutorial for yrou images and train the model you are ready to test. Follow the [tutorial](https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/test-your-model) to test your model
+After you complete the steps in the tutorial for your images and train the model you are ready to test. Follow the [tutorial](https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/test-your-model) to test your model
 
 Test your model with an image from the *TestImages* folder
 
